@@ -28,5 +28,6 @@
     "react/require-default-props": 1,
     "react/prefer-stateless-function": 1,
     "import/first": 0,
+    "no-return-assign": 0,
   }
 }
