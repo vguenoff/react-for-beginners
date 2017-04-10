@@ -22,6 +22,10 @@
     "react/jsx-filename-extension": 0,
     "react/prop-types": 1,
     "arrow-body-style": 1,
-    "jsx-a11y/no-static-element-interactions": 1
+    "jsx-a11y/no-static-element-interactions": 1,
+    "react/jsx-tag-spacing": 0,
+    "react/no-array-index-key": 0,
+    "react/require-default-props": 1,
+    "react/prefer-stateless-function": 1
   }
 }
