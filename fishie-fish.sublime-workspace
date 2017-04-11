@@ -1,0 +1,564 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"clas",
+				"className\t{} "
+			],
+			[
+				"A",
+				"AddForm\tfn "
+			],
+			[
+				"store",
+				"storeId"
+			],
+			[
+				"Sto",
+				"StorePicker\tfn "
+			],
+			[
+				"defa",
+				"defaultValue"
+			],
+			[
+				"sto",
+				"storeInput"
+			],
+			[
+				"go",
+				"goToStore\tfn "
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"Ma",
+				"Match\t? "
+			],
+			[
+				"B",
+				"BrowserRouter\t? "
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"class",
+				"className\tbool "
+			],
+			[
+				"de",
+				"default\t? "
+			],
+			[
+				"Boo",
+				"bootstrap"
+			],
+			[
+				"S",
+				"StorePicker\tfn "
+			],
+			[
+				"for",
+				"from"
+			],
+			[
+				"fun",
+				"function\t? "
+			],
+			[
+				"ca",
+				"calculstedTax\tproperty"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"col",
+				"col-sm-9"
+			],
+			[
+				"cl",
+				"col-sm-9"
+			],
+			[
+				"docu",
+				"document\tvar"
+			],
+			[
+				"cons",
+				"const\tkeyword"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "wra",
+		"selected_items":
+		[
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"got",
+				"Go To Definition"
+			],
+			[
+				"lowe",
+				"Convert Case: Lower Case"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"uppe",
+				"Convert Case: Upper Case"
+			],
+			[
+				"goto",
+				"Go To Definition"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Run CSScomb"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"snippetma",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"gitgutt",
+				"GitGutter: Compare Against Origin"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"set syntax ba",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"lint ",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 414.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/vg/Documents/-git/react/wb-react/fishie-fish"
+	],
+	"file_history":
+	[
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/components/AddForm.js",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/components/Inventory.js",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/components/Order.js",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/css/vg-style.css",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/components/Header.js",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/css/vg-fish.css",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/components/NotFound.js",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/components/StorePicker.js",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/components/App.js",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/index.js",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/.eslintrc",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/node_modules/bootstrap/dist/css/bootstrap.css",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/helpers.js",
+		"/Users/vg/Documents/-git/react/react-redux/00-ReduxSimpleStarter/src/index.js",
+		"/Users/vg/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/public/index.html",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/node_modules/.bin/eslint",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/src/css/style.css",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/package.json",
+		"/Users/vg/Library/Application Support/Sublime Text 3/Packages/User/ll.sublime-snippet",
+		"/Users/vg/Documents/-git/react/wb-react/cra-test/src/index.css",
+		"/Users/vg/Documents/-git/react/wb-react/cra-test/src/App.css",
+		"/Users/vg/Documents/-git/react/wb-react/cra-test/src/index.js",
+		"/Users/vg/Documents/-git/react/wb-react/cra-test/src/App.js",
+		"/Users/vg/Documents/-git/react/wb-react/cra-test/package.json",
+		"/Users/vg/Documents/-git/react/survive-js-react/kanban-app/app/components/Note.jsx",
+		"/Users/vg/Documents/-git/react/survive-js-react/kanban-app/app/components/Notes.jsx",
+		"/Users/vg/Documents/-git/react/survive-js-react/kanban-app/app/components/App.jsx",
+		"/Users/vg/Documents/-git/react/wb-react/stepped-solutions/20/src/components/AddFishForm.js",
+		"/Users/vg/Documents/-git/react/survive-js-react/kanban-app/package.json",
+		"/Users/vg/Documents/-git/react/survive-js-react/kanban-app/app/main.css",
+		"/Users/vg/Documents/-git/react/survive-js-react/kanban-app/app/index.jsx",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/public/favicon.ico",
+		"/Users/vg/Documents/-git/react/wb-react/00-temp/public/index.html",
+		"/Users/vg/Documents/-git/react/wb-react/catch-of-the-day/.eslintrc.js",
+		"/Users/vg/Documents/-git/angular/telecart/src/app/app.component.css",
+		"/Users/vg/Documents/-git/angular/telecart/src/app/app.component.html",
+		"/Users/vg/Documents/-git/react/wb-react/00-temp/src/css/style.css",
+		"/Users/vg/Documents/-git/react/wb-react/00-temp/src/components/search-bar.js",
+		"/Users/vg/Documents/-git/react/wb-react/00-temp/src/index.js",
+		"/Users/vg/Desktop/untitled.js",
+		"/Users/vg/Documents/-git/angular/telecart/src/app/app.component.spec.ts",
+		"/Users/vg/Documents/-git/angular/telecart/src/main.ts",
+		"/Users/vg/Documents/-git/angular/telecart/src/favicon.ico",
+		"/Users/vg/Documents/-git/angular/telecart/src/app/app.module.ts",
+		"/Users/vg/Documents/-git/angular/telecart/src/polyfills.ts",
+		"/Users/vg/Documents/-git/angular/telecart/src/styles.css",
+		"/Users/vg/Documents/-git/angular/telecart/src/test.ts",
+		"/Users/vg/Documents/-git/angular/telecart/src/tsconfig.app.json",
+		"/Users/vg/Documents/-git/angular/telecart/src/tsconfig.spec.json",
+		"/Users/vg/Documents/-git/angular/telecart/src/app/app.component.ts",
+		"/Users/vg/Documents/-git/angular/telecart/.angular-cli.json",
+		"/Users/vg/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Fish",
+			"col-sm",
+			"Fish",
+			"fish",
+			"Fish",
+			"fish",
+			"Fish",
+			"fish",
+			"Fish",
+			"fish",
+			"Fish",
+			"fish",
+			"Fish",
+			"padding",
+			"100px",
+			"class",
+			"burger",
+			"Fish-",
+			"Burger",
+			"burger",
+			"Burger",
+			"burger",
+			"Burger",
+			"burger",
+			"Burger",
+			"burger",
+			"Burger",
+			"burger",
+			"Burger",
+			"burger",
+			"Burger",
+			"burger",
+			"Burger",
+			"burger",
+			"Burger",
+			"burger",
+			"Burger",
+			"burger",
+			"Burger",
+			"burger",
+			"this.",
+			"box",
+			"Burger",
+			"burger",
+			"Available",
+			"Inventory",
+			"storeId",
+			"      // example jsx comment\nstoreId",
+			"ref",
+			"storeId",
+			"      ",
+			",\n",
+			"btn-",
+			"btn",
+			" ",
+			"p",
+			"App",
+			"Inventory",
+			"Match",
+			"2px",
+			"10",
+			"h1",
+			"h3",
+			"h2",
+			"import",
+			"md",
+			"col-xs-4",
+			"p",
+			"Header",
+			"';",
+			"Inventory",
+			"StorePicker",
+			"import",
+			"{\n",
+			"\n    ",
+			"boot",
+			"storeInput",
+			":",
+			"asdasd",
+			"document",
+			"1",
+			"export",
+			"import",
+			"AppComponent",
+			"HttpModule"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"React",
+			"export",
+			"StorePicker",
+			"'));\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fishie-fish.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".esli",
+				"wb-react/catch-of-the-day/.eslintrc"
+			],
+			[
+				"storepi",
+				"wb-react/catch-of-the-day/src/components/StorePicker.js"
+			],
+			[
+				"index.js",
+				"wb-react/catch-of-the-day/src/index.js"
+			],
+			[
+				"catch.eslint",
+				"wb-react/catch-of-the-day/.eslintrc"
+			],
+			[
+				"catchpackage",
+				"wb-react/catch-of-the-day/package.json"
+			],
+			[
+				"catchpacka",
+				"wb-react/catch-of-the-day/package.json"
+			],
+			[
+				"package",
+				"survive-js-react/kanban-app/package.json"
+			],
+			[
+				"apphtml",
+				"src/app/app.component.html"
+			],
+			[
+				"sale",
+				"src/app/sales/sales-tax/sales-tax.component.ts"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/-git/angular.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
