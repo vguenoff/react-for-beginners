@@ -12,6 +12,7 @@ class App extends React.Component {
     // we cannot use the keyword 'this' until we call super() because the React.Component that we're extending needs to be initialized
     this.addFish = this.addFish.bind(this);
     this.loadSemples = this.loadSemples.bind(this);
+    this.addToOrder = this.addToOrder.bind(this);
 
     // get initial state
     this.state = {
@@ -37,6 +38,14 @@ class App extends React.Component {
       fishes: SampleFishes
     });
   }
+  addToOrder(key) {
+    // first take a copy of the state
+    const order = { ...this.state.order };
+    // update or add the new number of fish ordered
+    order[key] = order[key] + 1 || 1;
+    // update our state
+    this.setState({ order });
+  }
   render() {
     return (
       <div>
@@ -46,12 +55,17 @@ class App extends React.Component {
             {Object
               .keys(this.state.fishes)
               .map(key => <Fish
+                addToOrder={this.addToOrder}
                 key={key}
+                index={key}
                 details={this.state.fishes[key]}
               />)}
           </ul>
         </div>
-        <Order />
+        <Order
+          fishes={this.state.fishes}
+          order={this.state.order}
+        />
         <Inventory
           addFish={this.addFish}
           loadSemples={this.loadSemples}

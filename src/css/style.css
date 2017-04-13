@@ -32,6 +32,8 @@ body {
     border: none;
     background: yellow;
     box-shadow: 1px 1px #c0c2c2; }
+  body button:focus {
+    outline: 0; }
   body .fish {
     width: 300px;
     height: 105px;
@@ -142,7 +144,7 @@ body {
     overflow: hidden;
     width: 130px;
     height: 130px;
-    margin: 1em 1em 1em 0;
+    margin: 0 1em 1em 0;
     box-shadow: 3px 3px yellow; }
     body .menu .menu-fish div img {
       position: absolute;
@@ -158,8 +160,21 @@ body {
   body .menu .menu-fish .btn-y {
     font-size: 0.65em;
     font-style: italic;
+    box-sizing: border-box;
+    transition: 0.5s all;
     color: #000; }
+  body .menu .menu-fish .btn-y[disabled] {
+    font-style: normal;
+    cursor: auto;
+    transform: translate(11px, -54px) scale(2.5) rotate(-10deg);
+    opacity: 0.9;
+    color: red; }
   body .menu .menu-fish:after {
     display: block;
     clear: both;
     content: ''; }
+  body .Order ul {
+    padding: 0;
+    list-style: none; }
+    body .Order ul li .price {
+      float: right; }
