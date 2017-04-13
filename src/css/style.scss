@@ -14,6 +14,9 @@ body {
 
   border: 1px solid #fff;
   background: #f7f7f7;
+  button {
+    cursor: pointer;
+  }
 }
 h2,
 h4,
@@ -89,7 +92,7 @@ input {
 /* end of fish */
 
 /* Store Picker */
-form {
+.StorePicker {
   max-width: 400px;
   margin: 1em auto;
   padding: 1em;
@@ -121,27 +124,48 @@ h1 {
   box-shadow: 3px 2px #888;
 }
 /* AddForm */
-.fish-edit {
-  margin: 0 auto;
-}
-.fish-name,
-.fish-price,
-.fish-status,
-.fish-desc,
-.fish-image,
-.btn {
-  box-sizing: border-box;
+// Inventory
+.Inventory {
+  padding: 0.3em;
 
-  border: none;
-  background: #fff;
-}
-.fish-desc,
-.fish-image,
-.btn {
-  width: 100%;
-}
-.fish-name,
-.fish-price,
-.fish-status {
-  width: 33.33333%;
+  button {
+    cursor: pointer;
+  }
+  .AddFishForm {
+    .fish-edit {
+      display: block;
+
+      width: 100%;
+      margin: 0 auto;
+    }
+    .fish-name,
+    .fish-price,
+    .fish-status,
+    .fish-desc,
+    .fish-image,
+    .btn {
+      box-sizing: border-box;
+
+      border: none;
+      background: #fff;
+    }
+    .fish-desc,
+    .fish-image,
+    .btn {
+      width: 100%;
+    }
+    .fish-name,
+    .fish-price,
+    .fish-status {
+      width: 33.33333%;
+    }
+  }
+  .load-fish {
+    color: #313131;
+    margin: 1em 0;
+    padding: 0.5em;
+    font-weight: 800;
+    border: none;
+    background: yellow;
+  }
 }

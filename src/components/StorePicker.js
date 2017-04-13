@@ -16,7 +16,7 @@ class StorePicker extends React.Component {
   }
   render() {
     return (
-      <form className="store-selector" onSubmit={this.goToStore}>
+      <form className="StorePicker" onSubmit={this.goToStore}>
         <h2>Please Enter A Store</h2>
         {/* ref and the arrow function are used to catch the input */}
         <input
