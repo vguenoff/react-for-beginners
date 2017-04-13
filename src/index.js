@@ -7,7 +7,7 @@ import StorePicker from './components/StorePicker';
 import NotFound from './components/NotFound';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/style.css';
+import './css/style.min.css';
 
 const Root = () => (
   <BrowserRouter>

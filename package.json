@@ -14,9 +14,9 @@
     "eslint-plugin-react": "^6.8.0",
     "node-sass": "^3.4.2",
     "nodemon": "^1.11.0",
-    "onchange": "^3.2.1",
     "postcss": "^5.0.16",
     "postcss-cli": "^2.5.1",
+    "cssnano": "^3.5.2",
     "react-scripts": "0.6.1"
   },
   "dependencies": {
@@ -36,7 +36,7 @@
     "watch": "concurrently --names \"webpack, postcss\" --prefix name \"npm run start\" \"npm run postcss\" \"npm run watch-css\"",
     "postcss": "node-sass --include-path scss -w ./src/css/style.scss ./src/css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run autoprefix\"",
-    "autoprefix": "postcss -u autoprefixer -r ./src/css/style.css"
+    "autoprefix": "postcss --use autoprefixer -b '> 1%' < ./src/css/style.css | postcss --use cssnano > ./src/css/style.min.css"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/.eslintrc"

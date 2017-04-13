@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './Header';
 import Order from './Order';
 import Inventory from './Inventory';
+import Fish from './Fish';
+import SampleFishes from '../sample-fishes';
 
 // if you want to pass information to a tag, you passed via a prop
 class App extends React.Component {
@@ -9,6 +11,8 @@ class App extends React.Component {
     super();
     // we cannot use the keyword 'this' until we call super() because the React.Component that we're extending needs to be initialized
     this.addFish = this.addFish.bind(this);
+    this.loadSemples = this.loadSemples.bind(this);
+
     // get initial state
     this.state = {
       fishes: {},
@@ -28,12 +32,30 @@ class App extends React.Component {
     // this.setState({ fishes: fishes });
     this.setState({ fishes });
   }
+  loadSemples() {
+    this.setState({
+      fishes: SampleFishes
+    });
+  }
   render() {
     return (
-      <div className="row">
-        <Header tagline="Fresh Seafood Market" />
+      <div>
+        <div className="menu">
+          <Header tagline="Fresh Seafood Market" />
+          <ul className="list-of-fishes">
+            {Object
+              .keys(this.state.fishes)
+              .map(key => <Fish
+                key={key}
+                details={this.state.fishes[key]}
+              />)}
+          </ul>
+        </div>
         <Order />
-        <Inventory addFish={this.addFish} />
+        <Inventory
+          addFish={this.addFish}
+          loadSemples={this.loadSemples}
+        />
       </div>
     );
   }
