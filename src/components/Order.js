@@ -5,6 +5,7 @@ class Order extends React.Component {
     return (
       <div className="Order">
         <h2>Order</h2>
+        <hr />
       </div>
     );
   }

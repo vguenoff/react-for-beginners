@@ -20,6 +20,7 @@ const Header = props => (
         {props.tagline}
       </span>
     </h4>
+    <hr />
   </div>
 );
 

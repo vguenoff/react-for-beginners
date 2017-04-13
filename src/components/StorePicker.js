@@ -27,7 +27,7 @@ class StorePicker extends React.Component {
           placeholder="Fresh Seafood Market"
           className="form-control"
         />
-        <button type="submit" className="btn btn-success">Visit Store</button>
+        <button type="submit" className="btn-y">Visit Store</button>
       </form>
     );
   }
