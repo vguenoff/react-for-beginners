@@ -4,6 +4,7 @@ import Order from './Order';
 import Inventory from './Inventory';
 import Fish from './Fish';
 import SampleFishes from '../sample-fishes';
+import base from '../base';
 
 // if you want to pass information to a tag, you passed via a prop
 class App extends React.Component {
@@ -20,6 +21,36 @@ class App extends React.Component {
       order: {}
     };
   }
+
+  componentWillMount() {
+    // this runs right before app is rendered
+    this.ref = base.syncState(
+      `${this.props.params.storeId}/fishes`,
+      {
+        context: this,
+        state: 'fishes'
+      }
+    );
+
+    // check if there is any order in localStorage
+    const localStorageRef = localStorage.getItem(`order-${this.props.params.storeId}`);
+    if (localStorageRef) {
+      // update our App component's order state
+      this.setState({
+        order: JSON.parse(localStorageRef)
+      })
+    }
+  }
+
+  componentWillUnmount() {
+    base.removeBinding(this.ref);
+  }
+
+  componentWillUpdate(nextProps, nextState) {
+    // only strings can be passed into the localStorage
+    localStorage.setItem(`order-${this.props.params.storeId}`, JSON.stringify(nextState.order));
+  }
+
   addFish(fish) {
     // update the state
     // first take a copy of the state ...spread operator is used to take a copy of the existing state
@@ -65,6 +96,7 @@ class App extends React.Component {
         <Order
           fishes={this.state.fishes}
           order={this.state.order}
+          params={this.props.params}
         />
         <Inventory
           addFish={this.addFish}
