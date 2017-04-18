@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"s",
+				"state"
+			],
+			[
+				"fish",
+				"fishes\t{} "
+			],
+			[
+				"rende",
+				"renderInventory\tfn "
+			],
+			[
+				"fi",
+				"fish"
+			],
+			[
+				"ke",
+				"key\t: DOMString StorageEvent"
+			],
+			[
+				"Obje",
+				"Object\t( value?: any ): Object Object"
+			],
+			[
+				"le",
+				"let"
+			],
+			[
 				"set",
 				"setState"
 			],
@@ -30,10 +58,6 @@
 			[
 				"componen",
 				"componentWillMount"
-			],
-			[
-				"fi",
-				"fishes\t{} "
 			],
 			[
 				"pro",
@@ -180,6 +204,31 @@
 	"buffers":
 	[
 		{
+			"file": "src/css/style.scss",
+			"settings":
+			{
+				"buffer_size": 4361,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/css/style.css",
+			"settings":
+			{
+				"buffer_size": 4470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1468,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "src/components/Order.js",
 			"settings":
 			{
@@ -192,8 +241,43 @@
 			"file": "src/components/App.js",
 			"settings":
 			{
-				"buffer_size": 3048,
+				"buffer_size": 3161,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".eslintrc",
+			"settings":
+			{
+				"buffer_size": 450,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "    \"react/jsx-filename-extension\": 0,\n    \"react/prop-types\": 1,\n    \"arrow-body-style\": 1,\n    \"jsx-a11y/no-static-element-interactions\": 1,\n    \"react/jsx-tag-spacing\": 0,\n    \"react/no-array-index-key\": 0,\n    \"react/require-default-props\": 1,\n    \"react/prefer-stateless-function\": 1,\n    \"import/first\": 0,\n    \"no-return-assign\": 0,",
+			"settings":
+			{
+				"buffer_size": 339,
+				"line_ending": "Unix",
+				"name": "\"react/jsx-filename-extension\": 0,"
+			}
+		},
+		{
+			"file": "src/components/Inventory.js",
+			"settings":
+			{
+				"buffer_size": 2095,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/AddFishForm.js",
+			"settings":
+			{
+				"buffer_size": 1473,
 				"line_ending": "Unix"
 			}
 		}
@@ -205,17 +289,41 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
-		"last_filter": "ins",
+		"height": 239.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"ins",
-				"Package Control: Install Package"
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"subli",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"uppe",
+				"Convert Case: Upper Case"
 			],
 			[
 				"remo",
 				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
 			],
 			[
 				"men",
@@ -238,10 +346,6 @@
 				"Package Control: List Packages"
 			],
 			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
 				"ke",
 				"Preferences: Key Bindings"
 			],
@@ -252,10 +356,6 @@
 			[
 				"css",
 				"Run CSScomb"
-			],
-			[
-				"menu",
-				"View: Toggle Menu"
 			],
 			[
 				"sublimelinter",
@@ -282,10 +382,6 @@
 				"Go To Definition"
 			],
 			[
-				"w",
-				"Word Wrap: Toggle"
-			],
-			[
 				"wra",
 				"Word Wrap: Toggle"
 			],
@@ -294,16 +390,8 @@
 				"Convert Case: Lower Case"
 			],
 			[
-				"uppe",
-				"Convert Case: Upper Case"
-			],
-			[
 				"goto",
 				"Go To Definition"
-			],
-			[
-				"sublime",
-				"Preferences: SublimeLinter Settings – User"
 			],
 			[
 				"snippetma",
@@ -350,7 +438,7 @@
 	},
 	"console":
 	{
-		"height": 414.0,
+		"height": 186.0,
 		"history":
 		[
 		]
@@ -368,10 +456,13 @@
 	[
 		"/home/vg/Documents/repos/react-for-beginners",
 		"/home/vg/Documents/repos/react-for-beginners/src",
-		"/home/vg/Documents/repos/react-for-beginners/src/components"
+		"/home/vg/Documents/repos/react-for-beginners/src/components",
+		"/home/vg/Documents/repos/react-for-beginners/src/css"
 	],
 	"file_history":
 	[
+		"/home/vg/Documents/repos/react-for-beginners/.eslintrc",
+		"/home/vg/Documents/repos/react-for-beginners/src/css/style.min.css",
 		"/home/vg/Documents/repos/react-for-beginners/src/components/App.js",
 		"/home/vg/.zshrc",
 		"/home/vg/.bash_profile",
@@ -489,6 +580,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jsx-a11y",
+			"renderInventory",
+			"const",
+			"placeholder",
+			"name",
+			"value",
+			"className",
+			"name",
+			"type=\"text\"",
+			"overflow-y:",
+			"over",
+			".fish-edit",
+			"className=\"",
+			"Name=\"",
+			"name=\"",
+			"Name=\"",
+			"name=\"",
+			"Name",
+			"name",
 			"true",
 			"localStorageRef",
 			"webpack",
@@ -607,11 +717,107 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "src/css/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2415,
+								2415
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2601.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								770,
+								770
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1131,
+								1131
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 165.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "src/components/Order.js",
 					"semi_transient": false,
 					"settings":
@@ -629,37 +835,166 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
 							"git_gutter_enabled": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 122.0,
+						"translation.y": 128.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 4,
 					"file": "src/components/App.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3048,
+						"buffer_size": 3161,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								224,
-								224
+								2056,
+								2056
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1159.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": ".eslintrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 199.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"auto_name": "\"react/jsx-filename-extension\": 0,",
+							"default_dir": "/home/vg/Documents/repos/react-for-beginners",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/components/Inventory.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/components/AddFishForm.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
 							"git_gutter_enabled": true,
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
 							"tab_size": 2,
@@ -669,7 +1004,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -677,7 +1012,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -705,7 +1040,7 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
+	"menu_visible": true,
 	"output.doc":
 	{
 		"height": 0.0
@@ -718,7 +1053,7 @@
 	"project": "fishie-fish.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -727,6 +1062,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"style.scss",
+				"src/css/style.scss"
+			],
+			[
+				"addfish",
+				"src/components/AddFishForm.js"
+			],
+			[
+				"invento",
+				"src/components/Inventory.js"
+			],
 			[
 				"app",
 				"src/components/App.js"
@@ -772,10 +1123,6 @@
 				"wb-react/catch-of-the-day/package.json"
 			],
 			[
-				"package",
-				"survive-js-react/kanban-app/package.json"
-			],
-			[
 				"apphtml",
 				"src/app/app.component.html"
 			],
@@ -816,7 +1163,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 217.0,
+	"side_bar_width": 247.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

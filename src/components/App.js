@@ -14,6 +14,9 @@ class App extends React.Component {
     this.addFish = this.addFish.bind(this);
     this.loadSemples = this.loadSemples.bind(this);
     this.addToOrder = this.addToOrder.bind(this);
+    this.updateFish = this.updateFish.bind(this);
+    this.removeFish = this.removeFish.bind(this);
+    this.removeFromOrder = this.removeFromOrder.bind(this);
 
     // get initial state
     this.state = {
@@ -38,19 +41,19 @@ class App extends React.Component {
       // update our App component's order state
       this.setState({
         order: JSON.parse(localStorageRef)
-      })
+      });
     }
   }
 
-  componentWillUnmount() {
-    base.removeBinding(this.ref);
-  }
 
   componentWillUpdate(nextProps, nextState) {
     // only strings can be passed into the localStorage
     localStorage.setItem(`order-${this.props.params.storeId}`, JSON.stringify(nextState.order));
   }
 
+  componentWillUnmount() {
+    base.removeBinding(this.ref);
+  }
   addFish(fish) {
     // update the state
     // first take a copy of the state ...spread operator is used to take a copy of the existing state
@@ -64,6 +67,17 @@ class App extends React.Component {
     // this.setState({ fishes: fishes });
     this.setState({ fishes });
   }
+  updateFish(key, updateFish) {
+    const fishes = { ...this.state.fishes };
+    fishes[key] = updateFish;
+    this.setState({ fishes });
+  }
+  removeFish(key) {
+    const fishes = { ...this.state.fishes };
+    // delete fishes[key]; // doesn't work with firebase
+    fishes[key] = null;
+    this.setState({ fishes });
+  }
   loadSemples() {
     this.setState({
       fishes: SampleFishes
@@ -75,6 +89,12 @@ class App extends React.Component {
     // update or add the new number of fish ordered
     order[key] = order[key] + 1 || 1;
     // update our state
+    this.setState({ order });
+  }
+  removeFromOrder(key) {
+    const order = { ...this.state.order };
+    // console.log(order[key]);
+    delete order[key];
     this.setState({ order });
   }
   render() {
@@ -97,10 +117,14 @@ class App extends React.Component {
           fishes={this.state.fishes}
           order={this.state.order}
           params={this.props.params}
+          removeFromOrder={this.removeFromOrder}
         />
         <Inventory
           addFish={this.addFish}
           loadSemples={this.loadSemples}
+          fishes={this.state.fishes}
+          updateFish={this.updateFish}
+          removeFish={this.removeFish}
         />
       </div>
     );

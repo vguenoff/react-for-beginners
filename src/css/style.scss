@@ -154,41 +154,50 @@ body {
   /* AddForm */
   // Inventory
   .Inventory {
-    .AddFishForm {
-      // h2,
-      // h4,
-      // form,
-      // input {
-      //   text-align: center;
-      // }
-      .fish-edit {
-        display: block;
+    overflow-y: scroll;
+    .remove-fish {
+      padding: 0.3em 0.5em 0.1em 0.5em;
 
-        width: 100%;
-        margin: 0 auto;
-      }
-      .fish-name,
-      .fish-price,
-      .fish-status,
-      .fish-desc,
-      .fish-image,
-      .btn {
-        box-sizing: border-box;
-
-        border: none;
-        background: #fff;
-      }
-      .fish-desc,
-      .fish-image,
-      .btn {
-        width: 100%;
-      }
-      .fish-name,
-      .fish-price,
-      .fish-status {
-        width: 33.33333%;
-      }
+      font-size: 0.8em;
+      color: #fff;
+      border: none;
+      background: #2b2b26;
     }
+    .fish-edit {
+      display: block;
+
+      width: 100%;
+      margin: 0 auto;
+    }
+    .fish-name,
+    .fish-price,
+    .fish-status,
+    .fish-desc,
+    .fish-image,
+    .btn {
+      box-sizing: border-box;
+
+      border: none;
+      background: #fff;
+    }
+    .fish-desc,
+    .fish-image,
+    .btn {
+      width: 100%;
+    }
+    .fish-name,
+    .fish-price,
+    .fish-status {
+      width: 33.33333%;
+    }
+    // .AddFishForm {
+    //   // h2,
+    //   // h4,
+    //   // form,
+    //   // input {
+    //   //   text-align: center;
+    //   // }
+    // }
   }
   .menu {
     .tagline {
@@ -260,6 +269,14 @@ body {
     }
   }
   .Order {
+    .remove-button {
+      font-size: 0.8em;
+      padding: 0.1em 0.2em 0 0.2em;
+      margin: 0.2em 0 0.2em 0.2em;
+      color: #fff;
+      border: none;
+      background: #2b2b26;      
+    }
     ul {
       padding: 0;
 

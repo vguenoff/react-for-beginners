@@ -110,27 +110,35 @@ body {
     padding: 0.3em 1em 0.2em 1em;
     background: yellow;
     box-shadow: 3px 2px #888; }
-  body .Inventory .AddFishForm .fish-edit {
-    display: block;
-    width: 100%;
-    margin: 0 auto; }
-  body .Inventory .AddFishForm .fish-name,
-  body .Inventory .AddFishForm .fish-price,
-  body .Inventory .AddFishForm .fish-status,
-  body .Inventory .AddFishForm .fish-desc,
-  body .Inventory .AddFishForm .fish-image,
-  body .Inventory .AddFishForm .btn {
-    box-sizing: border-box;
-    border: none;
-    background: #fff; }
-  body .Inventory .AddFishForm .fish-desc,
-  body .Inventory .AddFishForm .fish-image,
-  body .Inventory .AddFishForm .btn {
-    width: 100%; }
-  body .Inventory .AddFishForm .fish-name,
-  body .Inventory .AddFishForm .fish-price,
-  body .Inventory .AddFishForm .fish-status {
-    width: 33.33333%; }
+  body .Inventory {
+    overflow-y: scroll; }
+    body .Inventory .remove-fish {
+      padding: 0.3em 0.5em 0.1em 0.5em;
+      font-size: 0.8em;
+      color: #fff;
+      border: none;
+      background: #2b2b26; }
+    body .Inventory .fish-edit {
+      display: block;
+      width: 100%;
+      margin: 0 auto; }
+    body .Inventory .fish-name,
+    body .Inventory .fish-price,
+    body .Inventory .fish-status,
+    body .Inventory .fish-desc,
+    body .Inventory .fish-image,
+    body .Inventory .btn {
+      box-sizing: border-box;
+      border: none;
+      background: #fff; }
+    body .Inventory .fish-desc,
+    body .Inventory .fish-image,
+    body .Inventory .btn {
+      width: 100%; }
+    body .Inventory .fish-name,
+    body .Inventory .fish-price,
+    body .Inventory .fish-status {
+      width: 33.33333%; }
   body .menu .tagline {
     text-align: center; }
   body .menu ul {
@@ -173,6 +181,13 @@ body {
     display: block;
     clear: both;
     content: ''; }
+  body .Order .remove-button {
+    font-size: 0.8em;
+    padding: 0.1em 0.2em 0 0.2em;
+    margin: 0.2em 0 0.2em 0.2em;
+    color: #fff;
+    border: none;
+    background: #2b2b26; }
   body .Order ul {
     padding: 0;
     list-style: none; }
